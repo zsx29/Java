@@ -18,7 +18,10 @@ public class MethodOverloadTest {
 		
 	}// main end
 	
-	// 함수는 같아도 매개변수로 구분한다 ex) 오버로드는 같지만 뭘태우느냐에 따라 구분이 가능하다.
+	// MethodOverload : 메서드의 이름은 똑같지만 매개변수의 타입과 갯수로 구분하는 메서드
+	// 함수는 같아도 매개변수로 구분한다
+	// 예시) 오버로드는 같지만 뭘태우느냐에 따라 구분이 가능하다.
+	
 	public static int add(int num) {
 		return num++;
 	}
@@ -30,3 +33,7 @@ public class MethodOverloadTest {
 		return str + "님 반갑습니다.";
 	}
 }
+
+
+
+
