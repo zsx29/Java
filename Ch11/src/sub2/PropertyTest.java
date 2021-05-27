@@ -23,7 +23,7 @@ public class PropertyTest {
 			// 프로퍼티 객체에 데이터 저장
 			props.load(fis);
 			
-		} catch (FileNotFoundException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		

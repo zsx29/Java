@@ -1,12 +1,12 @@
 package sub1;
 
 import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.io.StringBufferInputStream;
+import java.io.IOException;
 
-import jdk.internal.net.http.BufferingSubscriber;
 
 /*
  * 날짜 : 2021-05-27
@@ -27,7 +27,7 @@ public class BufferFileIOTest {
 			
 			// 버퍼스트림 생성 (buffer = 가속로켓배송)
 			BufferedInputStream bis = new BufferedInputStream(new FileInputStream(path1));
-			BufferedInputStream bos = new BufferedInputStream(new FileOutputStream(path2));
+			BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream(path2));
 			
 			
 			int value = 0;
