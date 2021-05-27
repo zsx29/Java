@@ -1,4 +1,9 @@
 package sub4;
+
+import sub3.Animal;
+import sub3.Eagle;
+import sub3.Shark;
+import sub3.Tiger;
 /*
  * 날짜 : 2021-05-25
  * 이름 : 박재형
